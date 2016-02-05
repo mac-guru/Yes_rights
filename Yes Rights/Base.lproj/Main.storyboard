@@ -25,7 +25,6 @@
                                     <constraint firstAttribute="height" constant="83" id="rRz-oA-IFZ"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="clickMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lXF-DT-IA4"/>
                                     <segue destination="vp6-ne-m5k" kind="show" id="nvr-yh-tis"/>
                                 </connections>
                             </button>
@@ -37,17 +36,8 @@
                                     <constraint firstAttribute="height" constant="83" id="RbC-B3-FNR"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="GNe-NO-ATW" kind="show" id="TFt-no-0eq"/>
+                                    <action selector="sendMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yHG-5p-K3T"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEh-7m-xFj">
-                                <rect key="frame" x="0.0" y="432" width="600" height="83"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.89281266927719116" green="0.93279546499252319" blue="0.97442787885665894" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="83" id="qzo-ce-3Ph"/>
-                                </constraints>
-                                <state key="normal" title="dsdsdsd"/>
                             </button>
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Q0-Fa-qlY">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
@@ -187,6 +177,15 @@
                                     <constraint firstAttribute="height" constant="45" id="2zo-lA-NaH"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEh-7m-xFj">
+                                <rect key="frame" x="0.0" y="432" width="600" height="83"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.89281266927719116" green="0.93279546499252319" blue="0.97442787885665894" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="qzo-ce-3Ph"/>
+                                </constraints>
+                                <state key="normal" title="dsdsdsd"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -225,7 +224,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2991" y="-386"/>
+            <point key="canvasLocation" x="-3278" y="-430"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WW2-my-9A0">
@@ -282,34 +281,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nNT-QJ-uF0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1692" y="173"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="epv-Yr-z4s">
-            <objects>
-                <viewController id="GNe-NO-ATW" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="foS-mG-rxm"/>
-                        <viewControllerLayoutGuide type="bottom" id="xas-sH-1hN"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="RwS-dC-yb3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wzg-NG-PJG">
-                                <rect key="frame" x="18" y="76" width="37" height="21"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4pK-lI-uY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3003" y="423"/>
         </scene>
         <!--Quiz Controller-->
         <scene sceneID="2ic-Hr-EZ5">
