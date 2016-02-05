@@ -83,16 +83,13 @@ class QuizController: UIViewController {
         UIAlertView(title: title, message: message, delegate: nil, cancelButtonTitle: "OK").show()
     }
     
-    func wrongAns()
+    func wrongAns(title:String, subTitle:String)
     {
-//        let title = "Wrong Ans"
-//        let message = "Try Again"
-//        
-//        UIAlertView(title: title, message: message, delegate: nil, cancelButtonTitle: "OK").show()
+
         
-        let alertViewController = SCLAlertView().showError("Ooops!", subTitle: "Try Again")
+        let alertViewController = SCLAlertView().showError("Ooops!", subTitle: subTitle)
         
-        alertViewController.setTitle("Hey, you can do it!")
+        alertViewController.setTitle(title)
     }
     
     
@@ -131,7 +128,7 @@ class QuizController: UIViewController {
         }
         else{
             
-            wrongAns();
+            wrongAns("Wrong Ans!", subTitle: "Hey Try again")
         }
         
     }
@@ -143,7 +140,7 @@ class QuizController: UIViewController {
             increaseScore();
         }
         else{
-            wrongAns();
+            wrongAns("Wrong Ans!", subTitle: "Hey Try again")
         }
     }
     
@@ -154,7 +151,7 @@ class QuizController: UIViewController {
             increaseScore();
         }
         else{
-            wrongAns();
+            wrongAns("Wrong Ans!", subTitle: "Hey Try again")
         }
         
         
@@ -166,8 +163,7 @@ class QuizController: UIViewController {
             pickQuestion()
             increaseScore();
         }
-        else{
-            wrongAns();
+        else{               wrongAns("Wrong Ans!", subTitle: "Hey Try again")
         }
     }
     
