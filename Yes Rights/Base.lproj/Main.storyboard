@@ -40,13 +40,14 @@
                                     <segue destination="GNe-NO-ATW" kind="show" id="TFt-no-0eq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.05000000074505806" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEh-7m-xFj">
+                            <button opaque="NO" alpha="0.050000000000000003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEh-7m-xFj">
                                 <rect key="frame" x="0.0" y="432" width="600" height="83"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.89281266927719116" green="0.93279546499252319" blue="0.97442787885665894" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="83" id="qzo-ce-3Ph"/>
                                 </constraints>
+                                <state key="normal" title="dsdsdsd"/>
                             </button>
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Q0-Fa-qlY">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
@@ -462,7 +463,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P8z-yh-TOe" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2077" y="-515"/>
+            <point key="canvasLocation" x="-2182" y="-517"/>
         </scene>
     </scenes>
     <resources>

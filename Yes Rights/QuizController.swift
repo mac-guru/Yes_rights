@@ -85,10 +85,14 @@ class QuizController: UIViewController {
     
     func wrongAns()
     {
-        let title = "Wrong Ans"
-        let message = "Try Again"
+//        let title = "Wrong Ans"
+//        let message = "Try Again"
+//        
+//        UIAlertView(title: title, message: message, delegate: nil, cancelButtonTitle: "OK").show()
         
-        UIAlertView(title: title, message: message, delegate: nil, cancelButtonTitle: "OK").show()
+        let alertViewController = SCLAlertView().showError("Ooops!", subTitle: "Try Again")
+        
+        alertViewController.setTitle("Hey, you can do it!")
     }
     
     

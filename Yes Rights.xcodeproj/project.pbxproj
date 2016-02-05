@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F015F1CB1C64E8BC009B07B0 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F015F1CA1C64E8BC009B07B0 /* SCLAlertView.swift */; };
 		F0DABB7F1C64CA84004506E5 /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DABB7E1C64CA84004506E5 /* QuizController.swift */; };
 		F0E161821C64944A00437455 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E161811C64944A00437455 /* AppDelegate.swift */; };
 		F0E161841C64944A00437455 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E161831C64944A00437455 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F015F1CA1C64E8BC009B07B0 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
 		F0DABB7E1C64CA84004506E5 /* QuizController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
 		F0E1617E1C64944900437455 /* Yes Rights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yes Rights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E161811C64944A00437455 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F015F1C91C64E7DC009B07B0 /* UIAlertLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				F015F1CA1C64E8BC009B07B0 /* SCLAlertView.swift */,
+			);
+			name = UIAlertLibrary;
+			sourceTree = "<group>";
+		};
 		F0E161751C64944900437455 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		F0E161801C64944A00437455 /* Yes Rights */ = {
 			isa = PBXGroup;
 			children = (
+				F015F1C91C64E7DC009B07B0 /* UIAlertLibrary */,
 				F0E161811C64944A00437455 /* AppDelegate.swift */,
 				F0E161831C64944A00437455 /* ViewController.swift */,
 				F0E161851C64944A00437455 /* Main.storyboard */,
@@ -264,6 +275,7 @@
 			files = (
 				F0E161841C64944A00437455 /* ViewController.swift in Sources */,
 				F0E161821C64944A00437455 /* AppDelegate.swift in Sources */,
+				F015F1CB1C64E8BC009B07B0 /* SCLAlertView.swift in Sources */,
 				F0DABB7F1C64CA84004506E5 /* QuizController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,7 +419,7 @@
 				INFOPLIST_FILE = "Yes Rights/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amrit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhuwan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -419,7 +431,7 @@
 				INFOPLIST_FILE = "Yes Rights/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amrit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhuwan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
